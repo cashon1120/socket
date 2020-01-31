@@ -6,7 +6,7 @@
     "dev": "cross-env NODE_ENV=dev ./node_modules/.bin/nodemon bin/socket.js",
     "debugger": "cross-env NODE_ENV=dev ./node_modules/.bin/nodemon --inspect bin/www",
     "prd": "cross-env NODE_ENV=production pm2 start pm2.http.json",
-    "socket": "cross-env NODE_ENV=production pm2 start pm2.socket.json",
+    "socket": "cross-env NODE_ENV=production pm2 start pm2.socket.json"
   },
   "dependencies": {
     "debug": "^4.1.1",
