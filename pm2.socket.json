@@ -1,6 +1,6 @@
 {
   "apps": {
-    "name": "bookStore",
+    "name": "socket",
     "script": "bin/socket",
     "watch": true,
     "ignore_watch": [
