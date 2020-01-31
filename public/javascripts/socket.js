@@ -96,7 +96,7 @@ getLocalNick()
 
 function createWebSocket(nickName){
   //建立连接,并发送连接进入房间(并且连接会一直保存,进行服务端的轮询)
-  ws = new WebSocket('ws://192.168.0.106:3001');
+  ws = new WebSocket('ws://180.76.54.31:3001');
   //连接上来的时候
   ws.onopen = () => {
     let data = {
