@@ -1,7 +1,7 @@
 {
   "apps": {
     "name": "socket",
-    "script": "bin/socket",
+    "script": "bin/socket.js",
     "watch": true,
     "ignore_watch": [
       "node_modules",
