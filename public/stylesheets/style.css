@@ -1,0 +1,157 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+button {
+  text-align: center;
+  background: #222326;
+  color: #fff;
+  border: 0;
+  border-radius: .25rem;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+}
+input {
+  border-radius: .25rem;
+  padding: .6rem;
+  width: 100%;
+  border: 1px solid #e3e3e3;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+.all{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+.person {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #262626;
+  color: #fff;
+}
+
+.contain {
+  flex: 1;
+  overflow-y: auto;
+  background: #ebebeb;
+}
+
+.footer {
+  width: 100%;
+  box-sizing: border-box;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: .5rem;
+}
+
+.footer-input {
+  flex: 1;
+  padding-right: 5px;
+}
+
+.footer textarea{
+  height: 38px;
+  width: 100%;
+  padding: 5px;
+  font-size: 1rem;
+  position: relative;
+  top: 4px;
+  background: #fff;
+  border-radius: .25rem;
+}
+
+/*在线用户的列表*/
+.all2{
+  display: none;
+  width: 150px;
+  height: 500px;
+  border:1px dotted green;
+  float: left;
+}
+
+.title{
+  width: 150px;
+  height:50px;
+  line-height: 50px;
+  background-color: bisque;
+}
+
+.userList{
+  overflow-y: scroll;
+  height: 450px;
+}
+
+.modal-wrapper{
+  background: rgba(0,0,0, .3);
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 999;
+  display: none;
+}
+.modal-content {
+  background: #fff;
+  border-radius: .5rem;
+  padding: 1rem;
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal-content h1 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight:  normal;
+  padding-bottom: 1rem;
+}
+.modal-content input, .modal-content button {
+  width: 100%;
+}
+.modal-content button {
+  margin-top: 15px;
+}
+
+
+.chat-wrapper {
+  padding: 1rem 1rem 0 1rem;
+}
+.content-wrapper {
+  padding-right: 4rem;
+}
+.chat-wrapper-my {
+  text-align: right;
+}
+.chat-wrapper-my .content-wrapper{
+  padding-left: 4rem;
+  padding-right: 0;
+}
+.chat-wrapper-my p.content {
+  background: #57bf4c;
+}
+p.time {
+  text-align: center;
+  font-size: .8rem;
+  color: #666;
+}
+p.content {
+  background: #fff;
+  padding: .5rem .75rem;
+  display: inline-block;
+  border-radius: .25rem;
+  margin: .5rem 0;
+}
+p.user{
+  padding: 0;
+  margin: .5rem 0 0 0;
+  color: #6a6a6a;
+}
